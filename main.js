@@ -1,3 +1,5 @@
+//Reference is Ben from the group
+
 const sampleArray = [
   469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 
   456, 21, 398, 339, 882, 848, 179, 535, 940, 472,
@@ -70,9 +72,9 @@ let katafiveHeading = document.createElement('h3')
 katafiveHeading.append('kata 5')
 kata5.append(katafiveHeading)
 kataList.append(kata5)
-for(let index = 1; index <= 100; index ++){
+for(let index = 1; index <= 120    ; index ++){
   const indexIsPerfectSquare = Number.isInteger(Math.sqrt(index))
-  if(indexIsPerfectSquare && index != 100){
+  if(indexIsPerfectSquare && index != 120){
     kata5.append(index + ',')
   }
 }
